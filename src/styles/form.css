@@ -1,0 +1,37 @@
+.input,
+.select,
+.textarea {
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #dfe3ec;
+    padding: 11px 12px;
+    font-size: 13px;
+    outline: none;
+    background: #fff;
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    border-color: rgba(11, 18, 32, 0.35);
+    box-shadow: 0 0 0 4px rgba(11, 18, 32, 0.08);
+}
+
+.radio,
+.checkbox {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 13px;
+    color: rgba(11, 18, 32, 0.8);
+}
+
+.radio input,
+.checkbox input {
+    transform: scale(1.05);
+}

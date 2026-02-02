@@ -1,0 +1,64 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #0b1220;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.headerInner {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 18px 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-weight: 800;
+}
+
+.title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.headerRight {
+    min-width: 260px;
+    display: grid;
+    gap: 10px;
+}
+
+.metaBox {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 12px;
+}
+
+.metaValue {
+    font-weight: 800;
+    color: #fff;
+}

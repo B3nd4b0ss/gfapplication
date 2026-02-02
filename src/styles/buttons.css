@@ -1,0 +1,40 @@
+.btn {
+    border: none;
+    border-radius: 14px;
+    padding: 11px 14px;
+    font-weight: 900;
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 0.06s ease;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btnPrimary {
+    background: #0b1220;
+    color: #fff;
+}
+
+.btnSecondary {
+    background: #ffffff;
+    border: 1px solid #dfe3ec;
+    color: #0b1220;
+}
+
+.btnGhost {
+    background: transparent;
+    border: 1px dashed #cfd5e3;
+    color: rgba(11, 18, 32, 0.75);
+}
+
+.btnDanger {
+    background: #b00020;
+    color: #fff;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
